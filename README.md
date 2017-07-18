@@ -24,11 +24,12 @@ Creates the HTML or CSV Output of VMware vCloud Director Ressources.
 
 PS Console Outpot is only the Export Path.
 
-Note:
+**Note:**
 VMware vCloud Director must be connected!
+
 If '-OMMetrics:$True ', VMware vRealize Operations Manager must be connected!
 
-Usage:
+**Usage:**
 ```powershell
 Connect-CIServer MyVcdServer
 Connect-OMServer MyVropsServer
@@ -39,7 +40,7 @@ Get-vCDReport -NetworkName "MyExternalNetwork" -OutputFilePath "C:\Temp\" -OMMet
 
 Creates a Report of Edge Gateway Details. 
 
-Usage:
+**Usage:**
 ```powershell
 $EdgeView = Search-Cloud -QueryType EdgeGateway | Get-CIView
 Get-EdgeReport -EdgeView $EdgeView | Format-Table -Autosize
