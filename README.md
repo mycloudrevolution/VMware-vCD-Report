@@ -37,6 +37,9 @@ Connect-OMServer MyVropsServer
 Get-vCDReport -NetworkName "MyExternalNetwork" -OutputFilePath "C:\Temp\" -OMMetrics:$True -OutputType "HTML"
 ```
 
+**Third Party Code used:**
+https://www.sepago.de/blog/2014/01/20/powershell-daten-als-html-report-ausgeben
+
 ## Get-EdgeReport
 
 Creates a Report of Edge Gateway Details. 
@@ -47,3 +50,5 @@ $EdgeView = Search-Cloud -QueryType EdgeGateway | Get-CIView
 Get-EdgeReport -EdgeView $EdgeView | Format-Table -Autosize
 ```
 
+**Third Party Code used:**
+https://gallery.technet.microsoft.com/scriptcenter/List-the-IP-addresses-in-a-60c5bb6b
