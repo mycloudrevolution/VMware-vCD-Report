@@ -25,6 +25,7 @@ Creates the HTML or CSV Output of VMware vCloud Director Ressources.
 PS Console Outpot is only the Export Path.
 
 **Note:**
+
 VMware vCloud Director must be connected!
 
 If '-OMMetrics:$True ', VMware vRealize Operations Manager must be connected!
