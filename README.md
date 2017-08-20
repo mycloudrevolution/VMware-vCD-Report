@@ -8,10 +8,12 @@ VMware-vCD-Module PowerShell Module
 ## Project Owner:
 
 Markus Kraus [@vMarkus_K](https://twitter.com/vMarkus_K)
+
 MY CLOUD-(R)EVOLUTION [mycloudrevolution.com](http://mycloudrevolution.com/)
 
 ## Project WebSite:
-[mycloudrevolution.com](http://mycloudrevolution.com/)
+[vCloud Director PowerCLI Ressource Usage Report](https://mycloudrevolution.com/2017/07/19/vcloud-director-powercli-ressource-usage-report/)
+
 
 ## Project Description:
 
